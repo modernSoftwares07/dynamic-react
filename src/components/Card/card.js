@@ -3,7 +3,7 @@ import './card.css'
 const Card = (props) => {
     return(
         <div className="content">
-            <h1>My Telephone directory</h1>
+            <h1>My Telephone Directory</h1>
             {props.children}
         </div>
     )
